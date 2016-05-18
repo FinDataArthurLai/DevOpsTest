@@ -1,0 +1,29 @@
+{
+  "name": "hello-ci-workflow",
+  "version": "1.0.0",
+  "description": "test for DevOps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinDataArthurLai/DevOpsTest.git"
+  },
+  "keywords": [
+    "devops"
+  ],
+  "author": "Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FinDataArthurLai/DevOpsTest/issues"
+  },
+  "homepage": "https://github.com/FinDataArthurLai/DevOpsTest#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
